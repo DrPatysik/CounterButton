@@ -1,3 +1,5 @@
+//FIXME я создавала ранее в своем проекте такой же класс,чтобы повторить ваш путь(поэтому не обращайте внимание на этот класс)
+
 package com.example.counterbutton
 
 import android.os.Parcel
