@@ -11,15 +11,15 @@
     android:layout_margin="10dp">
 
 <androidx.appcompat.widget.Toolbar
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-android:id="@+id/myToolBar"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:background="#32838E"
-app:title="Activity State"
-app:titleMarginStart="10dp"
-app:titleTextColor="@color/white">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#32838E"
+    app:title="Activity State"
+    app:titleMarginStart="10dp"
+    app:titleTextColor="@color/white">
 
 </androidx.appcompat.widget.Toolbar>
 
@@ -39,7 +39,7 @@ app:titleTextColor="@color/white">
             />
 
         <TextView
-            android:id="@+id/counter1"
+            android:id="@+id/txtVCounter1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
@@ -65,7 +65,7 @@ app:titleTextColor="@color/white">
             />
 
         <TextView
-            android:id="@+id/counter2"
+            android:id="@+id/txt_v_counter_2"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
@@ -90,7 +90,7 @@ app:titleTextColor="@color/white">
             android:text="Button 3" />
 
         <TextView
-            android:id="@+id/counter3"
+            android:id="@+id/txt_v_counter_3"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
@@ -115,7 +115,7 @@ app:titleTextColor="@color/white">
             android:text="Button 4" />
 
         <TextView
-            android:id="@+id/counter4"
+            android:id="@+id/txt_v_counter_4"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
