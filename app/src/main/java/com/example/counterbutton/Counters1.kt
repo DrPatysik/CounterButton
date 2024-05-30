@@ -26,7 +26,6 @@ class Counters1  (
     fun incrementCounter3(){
         counter3++
     }
-
     fun incrementCounter4(){
         counter4++
     }

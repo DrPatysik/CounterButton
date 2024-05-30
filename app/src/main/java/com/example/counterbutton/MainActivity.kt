@@ -44,16 +44,12 @@ class MainActivity : AppCompatActivity() {
         }
         setTextCounters()
     }
-
     private fun setTextCounters(){
         binding.txtVCounter1.text = counters.counter1.toString()
         binding.txtVCounter2.text = counters.counter2.toString()
         binding.txtVCounter3.text = counters.counter3.toString()
         binding.txtVCounter4.text = counters.counter4.toString()
     }
-
-
-
     private fun itemsCounter(){
         /*button1 = findViewById(R.id.button1)
         button2 = findViewById(R.id.button2)
