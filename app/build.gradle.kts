@@ -4,6 +4,7 @@ plugins {
     id("kotlin-parcelize")
 }
 
+
 android {
     namespace = "com.example.counterbutton"
     compileSdk = 34
